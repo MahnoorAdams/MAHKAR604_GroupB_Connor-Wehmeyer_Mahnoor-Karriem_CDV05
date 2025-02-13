@@ -1,0 +1,150 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: fadeIn 2s ease-in-out;
+    margin-left: 50px;
+}
+
+/* Navigation Styling */
+.nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.nav ul li a:hover {
+    background: #f39c12;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    border-radius: 10px;
+    animation: fadeUp 1.5s ease-out;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Project Box Styling */
+.project {
+    background: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 1100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 28px;
+    color: #333;
+}
+
+.project p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+
+/* Footer Styling */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Link Styling */
+.a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
